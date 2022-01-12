@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  margin: 0 auto;
+  
 }
 
 span {
@@ -9,11 +9,11 @@ display: block;
 
 .text {
   transition: all .3s;
-  font-sie: 20px;
+  font-size: 26px;
 }
 
 .text:hover {
-  font-size: 26px;
+  font-size: 32px;
   color: red;
   font-weight: 700;
 }
