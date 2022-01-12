@@ -2,7 +2,7 @@ const text = document.querySelector('.text');
 
 /*
 по заданию понял, что клик мышкой по любой части документа?
-Если клик на текст, то слущать события addEventListenet вешаем на text: 
+Если клик на текст, то слушатель события addEventListener вешаем на text: 
 text.addEventListener('click', () => {
 	text.style.opacity = '0';
 	});
