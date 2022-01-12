@@ -1,0 +1,21 @@
+body {
+  height: 100vh;
+}
+
+span {
+display: block;
+}
+
+.text {
+transition: all .3s;
+}
+
+.text:hover {
+  font-size: 20px;
+  color: red;
+  font-weight: 700;
+}
+
+.text:hover span {
+  color: blue;
+}
